@@ -1,0 +1,38 @@
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Importing a modern font family, for example, 'Poppins' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Styling for <h1> elements */
+h1 {
+  color: mediumseagreen;
+}
+
+/* Styling for keywords */
+.keyword {
+  font-weight: bold;
+  color: yellow; /* Replace 'yellow' with the specific bright color you want */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header-logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 1rem;
+  }
+  
