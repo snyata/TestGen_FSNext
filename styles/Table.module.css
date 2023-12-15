@@ -1,0 +1,21 @@
+/* styles/Table.module.css */
+
+.table {
+    min-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tableHeader {
+    background-color: #f3f4f6; /* Light gray background */
+    text-align: left;
+  }
+  
+  .tableCell {
+    border: 1px solid #d1d5db; /* Light gray border */
+    padding: 0.5rem 1rem;
+  }
+  
+  .tableRow:nth-child(odd) {
+    background-color: #f9fafb; /* Slightly different background for odd rows */
+  }
+  

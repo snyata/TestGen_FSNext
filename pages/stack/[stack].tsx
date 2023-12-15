@@ -69,9 +69,6 @@ const StackPage: React.FC = () => {
     Object.entries(filters).every(([key, value]) => !value || row[key] === value)
   );
 
-
-
-
   useEffect(() => {
     // Assuming username is retrieved or set here
     const username = 'User'; // Replace 'User' with actual username logic
@@ -88,7 +85,7 @@ const StackPage: React.FC = () => {
   }, []);
 
   // Determine the logo URL and header text based on the stack
-  const logoUrl = stack === 'SAP' ? '/sap-logo.png' : '/nextjs-logo.png'; // Adjust with correct logo paths
+  const logoUrl = stack === 'SAP' ? '/sap-logo.png' : '/nextjs-logo.png';
   const headerText = stack === 'SAP' ? 'SAP' : 'Next.js';
 
   return (
